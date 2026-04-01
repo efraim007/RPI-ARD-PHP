@@ -2,7 +2,7 @@ import requests
 import smbus
 import time
 
-apikey = "123456789"
+apikey = "12345678"
 SLAVE_ADDRESS = 0x04  # Ugyanaz, mint az Arduino kódban
 bus = smbus.SMBus(1)  # I2C bus 1 a Pi-n
 
